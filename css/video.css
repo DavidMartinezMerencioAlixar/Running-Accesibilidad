@@ -54,9 +54,7 @@ button {
 
 #textoAnimado {
     animation-name: movimientoTexto;
-    animation-duration: 20s;
-    animation-delay: 2s;
-    opacity: 0;
+    animation-duration: 15s;
 }
 
 @keyframes movimientoTexto {
