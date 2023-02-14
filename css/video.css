@@ -26,7 +26,7 @@ body {
 #contenido {
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -55,7 +55,7 @@ button {
 #textoAnimado {
     animation-name: movimientoTexto;
     animation-duration: 20s;
-    animation-delay: 3s;
+    animation-delay: 2s;
     opacity: 0;
 }
 
