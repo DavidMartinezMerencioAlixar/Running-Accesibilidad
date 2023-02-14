@@ -1,0 +1,51 @@
+#mainHeader, .cabeceraEvento {
+    background-color: #DD5353;
+}
+
+#lupa {
+    color: #DD5353;
+}
+
+.cabeceraEvento {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.tarjetaEvento {
+    margin-bottom: 10px;
+}
+
+#contenedorTarjetasEventos {
+    margin: auto;
+}
+
+#login * input:invalid + span::after {
+    content: "\274C";
+}
+
+.imgRedes {
+    width: 15%;
+}
+
+#modoOscuro:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 640px) {
+    #mainFooter {
+        display: block;
+    }
+
+    #footer1, #footer2, #footer3, #footer4, #mainSection, #sideSection {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #mainSection div {
+        width: 100%;
+    }
+
+    #contenedorTarjetasEventos {
+        margin: auto;
+    }
+}
