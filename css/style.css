@@ -6,6 +6,11 @@
     color: #DD5353;
 }
 
+
+#lupa:focus {
+    border: 1px solid #DD5353;
+}
+
 .cabeceraEvento {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
