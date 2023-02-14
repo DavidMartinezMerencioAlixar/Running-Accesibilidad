@@ -15,8 +15,10 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
+    width: 100%;
+    height: auto;
     filter: blur(10px);
     z-index: -999 !important;
 }
@@ -31,6 +33,10 @@ body {
     z-index: 2 !important;
 }
 
+#contenido > *:not(#botonCerrarVideo):hover {
+    cursor: default;
+}
+
 button {
     width: 200px;
     font-size: 18px;
@@ -39,11 +45,6 @@ button {
     background: #000;
     color: #fff;
     cursor: pointer;
-}
-  
-button {
-    background: #ddd;
-    color: black;
 }
 
 #contenedorTexto {
