@@ -25,6 +25,7 @@ body {
 
 #contenido {
     position: fixed;
+    height: 150px;
     bottom: 0;
     background: rgba(255, 255, 255, 0.6);
     color: rgb(40, 40, 40);
@@ -53,18 +54,17 @@ button {
 }
 
 #textoAnimado {
+    width: 100%;
     animation-name: movimientoTexto;
-    animation-duration: 15s;
+    animation-duration: 5s;
 }
 
 @keyframes movimientoTexto {
     from {
         margin-left: 100%;
-        width: 300%;
     }
 
     to {
         margin-left: 0%;
-        width: 100%;
     }
 }
